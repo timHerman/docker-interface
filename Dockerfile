@@ -52,6 +52,4 @@ VOLUME /var/www
 
 EXPOSE 80
 
-#ENTRYPOINT ["/bin/bash", "/start.sh"]
-
-CMD ["/bin/bash"]
+ENTRYPOINT ["/bin/bash", "/start.sh"]
